@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #8c4345;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+.wrapper{
+     margin-top: 10%;
+      
+}
+.wrapper h1{
+    font-family: 'Allura', cursive;
+    font size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.team{
+    display: flex;
+    text-align: center;
+    width:auto;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.team .team_membe
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+
+}
+
+td,tr{
+    padding: 8px;
+}
+
+table, tr, td {
+    border: 1px solid whitesmoke;
+}
+table{
+    box-align: center; 
+ }

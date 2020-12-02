@@ -1,0 +1,114 @@
+<html>
+
+<body>
+    <style>
+        h1 {
+            font-size: 40px;
+        }
+
+        .button {
+            width: 100%;
+            background-color: #b30000;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+
+        body {
+            background-color: #c1aef3;
+        }
+
+        div {
+            border: 3px solid black;
+            border-radius: 10px;
+            width: 350px;
+            margin: 20px;
+            margin-top: 50px;
+            margin-bottom: 100px;
+            margin-right: 80px;
+            margin-left: 650px;
+            text-align: left;
+            padding: 100px;
+            color: black;
+            line-height: 0.9;
+            font-size: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px #ff3333;
+            border-radius: 4px;
+        }
+
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px #ff3333;
+            border-radius: 4px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px #ff3333;
+            border-radius: 4px;
+        }
+    </style>
+    <h1 style="color:black; text-align:center;">ROOM ALLOTMENT FOR GUEST</h1>
+    <div>
+        <form action="complain.php" method="POST">
+            <label for="fname">FULL NAME</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter Your Name.." required>
+            <br>
+            <br>
+            <label for="enum">ENROLLMENT NO</label>
+            <input type="text" id="enum" name="enum" placeholder="Enter your Number.." required>
+            <br>
+            <br>
+            <label for="num">CONTACT NO</label>
+            <input type="text" id="num" name="num" placeholder="Enter your Number.." required>
+            <br>
+            <br>
+            <label for="GUE">NO OF GUESTS</label><BR>
+            <select id="GUE">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+            </select>
+            <br>
+            <br>
+            <label for="REL">RELATION</label>
+            <input type="text" id="REL" name="REL" placeholder="Enter Your RELATION.." required>
+            <br>
+            <br>
+            <label for="fdate">ROOM BOOKING:</label><BR><BR>
+            <label for="fdate">STAYING FROM</label>
+            <input type="date" id="fdate" name="fdate" required>
+            <br>
+            <br>
+            <label for="tdate">STAYING TO</label>
+            <input type="date" id="tdate" name="tdate" required>
+            <br>
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+
+</html>
